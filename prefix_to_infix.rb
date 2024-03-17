@@ -1,6 +1,5 @@
 def infix(input)
   operator = []
-  rev_operator = []
   operand = []
   postfix = input.split('')
   symbol = ["+", "-", "/"]
